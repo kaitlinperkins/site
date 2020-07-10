@@ -2,4 +2,4 @@
 title: "About Me"
 ---
 
-Why I am awesome. 
+I love coding and supporting environmental quality with my work.
