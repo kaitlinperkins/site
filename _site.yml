@@ -9,14 +9,14 @@ navbar:
       href: about.html
     - text: "Research"
       href: research.html  
-    - text: "CV"
-      href: cvres.html
     - text: "Civic Engagement"
       href: civ.html 
+    - text: "CV"
+      href: cvres.html
     - text: "Contact Me"
       href: contact.html 
 output:
   html_document:
-    theme: cosmo
+    theme: flatly
     highlight: textmate
     
