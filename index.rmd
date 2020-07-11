@@ -2,8 +2,8 @@
 title: "Kaitlin Perkins"
 ---
 
-Coming soon!
+A frosty day of field work on the Clark Fork River
 
-```{r , echo = F,out.width = '30%'}
+```{r , echo = F,out.width = '60%'}
 knitr::include_graphics("./UCFR.jpg")
 ```
