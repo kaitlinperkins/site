@@ -4,3 +4,6 @@ title: "Kaitlin Perkins"
 
 Coming soon!
 
+```{r , echo = F,out.width = '30%'}
+knitr::include_graphics("./UCFR.jpg")
+```

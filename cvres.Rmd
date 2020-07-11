@@ -3,6 +3,5 @@ title: "CV and Resume"
 
 ---
 
-Coming soon!
 
-[Full CV](/cv.pdf)
+[CV](/cv.pdf)
