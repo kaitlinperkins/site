@@ -1,7 +1,8 @@
 ---
-title: "CV and Resume"
+title: "CV"
 
 ---
 
+Check out my history in document form:
 
 [CV](/cv.pdf)

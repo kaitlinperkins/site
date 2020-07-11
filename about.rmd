@@ -8,6 +8,6 @@ I grew up near Mt. St. Helens in SW Washington. My background is in aquatic and 
 
 I am seeking to apply my skills to a position in water resources science or research and development. 
 
-```{r , echo = F,out.width = '20%'}
+```{r , echo = F,out.width = '30%'}
 knitr::include_graphics("./pic.jpg")
 ```
