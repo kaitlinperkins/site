@@ -15,3 +15,8 @@ navbar:
       href: civ.html 
     - text: "Contact Me"
       href: contact.html 
+output:
+  html_document:
+    theme: cosmo
+    highlight: textmate
+    
