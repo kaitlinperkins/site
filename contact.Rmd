@@ -1,9 +1,11 @@
----
-title: "Contact Me"
+<br>
+<br>
 
----
+## Contact
 
-Email: kate.perkins2@gmail.com
 
+Email: kate.perkins2 at gmail.com
 
 [Twitter](https://twitter.com/hikatehellokate): @hikatehellokate
+
+[LinkedIn](https://www.linkedin.com/in/kaitlinroseperkins/): @kaitlinroseperkins

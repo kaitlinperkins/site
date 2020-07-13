@@ -1,8 +1,8 @@
----
-title: "CV"
+<br>
+<br>
 
----
+## CV
 
-Check out my history in document form:
+Download my history in PDF form:
 
 [CV](/cv.pdf)
