@@ -3,14 +3,4 @@
 
 ## Research
 
-
-I am currently a graduate student with the [Ecosystems Lab](https://www.cfc.umt.edu/research/ecosystems/) at the **University of Montana** as part of the Franke College of Forestry's [Systems Ecology](https://www.cfc.umt.edu/grad/systems-ecology/) program. I work with Dr. Ben Colman investigating the distribution and characteristics of metal-containing particles in the Clark Fork River. I will receive my Master of Science in November 2020. 
-
-Ben and I have been lucky to collaborate with Dr. Manuel Montaño at Western Washington University, who spent his postdoctoral work in Austria developing methods in single particle and time-of-flight mass spectrometry (spICP-TOFMS). This project has been an opportunity to amp up my skills in R, moving from standard descriptive statistics to modeling and data processing at a larger scale. We are currently in the process of describing our findings in a paper, and I have presented parts of this research at several conferences over the past two years. 
-
-As part of the EPSCoR-funded Consortium for Research on Environmental Water Systems (CREWS), I have attended workshops and will complete a coures in data management. I am implementing techniques to make my research more transparent and accessible by collaborators, reviewers, and other interested parties. Additionally, as part of CREWS I have regularly collected and analyzed water samples for metal and metalloid concentrations over the past two years. As part of the CREWS project I have taken on regular sample collection, including both shore-based and by canoe, for metals, nutrients, alkalinity, and other samples required by the numerous collaborators on the project. I have also completed regular laboratory work to size fraction samples using vacuum filtration and centrifugation and sample preservation using acidification. Given that we were a new lab when I came onboard, I was also trained in spectrofluorometric analysis, tangential flow filtration, field flow fractionation, and dynamic light scattering. Through my work with the Environmental Biogeochemistry Lab on the UM campus, I analyzed sediment metal content from the Clark Fork River using inductively coupled plasma optical emission spectrometry (ICP-OES).  
-
-Washington State University Vancouver
-
-Sea Education Association
-
+Coming soon!
