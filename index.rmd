@@ -4,13 +4,15 @@
 
 ## Welcome!
 
-I often go by Kate. I made this website to connect about aquatic science and community engagement. Look for information about me and the work I've done on other tabs and check out updates below. 
+I often go by Kate. I made this website to connect about aquatic science, natural resource management, and community engagement. Look for information about me and the work I've done on other tabs and check out updates below. 
 
 <br>
 
 ## Updates
 
-**July 12, 2020**  I have been earning an MS at the University of Montana as I study metal contaminants in the Clark Fork River. **Now, I am looking for a job!** I am seeking a position in the sciences to contribute to projects in water quality, resource management, and data science.  
+**July 12, 2020** 
+
+I have been earning an MS at the University of Montana as I study metal contaminants in the Clark Fork River. **Now, I am looking for a job!** I am seeking a position in the sciences to contribute to projects in water quality, resource management, and data science.  
 
 
 A frosty day of field work on the Clark Fork River, Montana in winter 2018/2019.
@@ -19,3 +21,8 @@ A frosty day of field work on the Clark Fork River, Montana in winter 2018/2019.
 ```{r , echo = F,out.width = '60%'}
 knitr::include_graphics("./UCFR.png")
 ```
+
+
+
+
+
