@@ -13,6 +13,9 @@ I grew up near Mt. St. Helens in SW Washington. I completed my BS at Washington 
 My work is fueled by my passion for clean water and community engagement in water quality. 
 
 
+I love keeping chickens and growing my own food, as well as all sorts of other home projects. 
+
+
 ```{r , echo = F,out.width = '50%'}
 knitr::include_graphics("./pic.jpg")
 ```

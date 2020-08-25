@@ -7,8 +7,8 @@ navbar:
       href: index.html
     - text: "About Me"
       href: about.html
-    - text: "Research"
-      href: research.html  
+    - text: "Science"
+      href: science.html  
     - text: "Civic Engagement"
       href: civ.html 
     - text: "CV"
