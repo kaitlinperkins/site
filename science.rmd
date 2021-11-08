@@ -3,12 +3,16 @@
 
 ## Science
 
-I have six years of experience in the aquatic sciences, with my background ranging from ocean-based plastic research to freshwater geochemistry. Here are the roles I’ve taken on.
+I have six years of experience in the aquatic sciences, with my background ranging from ocean-based plastic research to freshwater geochemistry. Here are the roles I have taken on.
+
+**Water Quality Data Scientist & Environmental Researcher**
+
+Currently, I support water quality projects in the Klamath Basin. My roles include data science projects and fieldwork, and I am currently working on temperature and nutrient loading studies. 
 
 
 **Graduate Research Assistant, University of Montana**
 
-I am wrapping up my master’s thesis at UM as I investigate characteristics of metal-containing particles in the Upper Clark Fork River (UCFR) with Dr. Ben Colman. My role has been multi-faceted as I complete a data analytics-intensive thesis, manage a long-term metal contamination monitoring project, and develop infrastructure for our newly minted lab group. 
+I completed my master’s thesis at UM investigating the characteristics of metal-containing particles in the Upper Clark Fork River (UCFR) with Dr. Ben Colman. My role has been multi-faceted as I complete a data analytics-intensive thesis, manage a long-term metal contamination monitoring project, and help to develop infrastructure for our newly minted lab group. 
 
 For my thesis research, Ben and I have been collaborating with Dr. Manuel Montaño (now at Western Washington University) in the application of single particle inductively coupled plasma time of flight mass spectrometry (spICP-TOFMS) to characterize the composition, particle size, and distribution of metal-containing particles in the UCFR. In the bigger picture, insights gleaned from this project could inform how we understand the toxicity and dynamics of metal contamination in impaired rivers like the UCFR. 
 
