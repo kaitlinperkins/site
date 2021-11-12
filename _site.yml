@@ -11,7 +11,7 @@ navbar:
       href: science.html  
     - text: "Civic Engagement"
       href: civ.html 
-    - text: "CV"
+    - text: "Resume"
       href: cvres.html
     - text: "Contact Me"
       href: contact.html 
