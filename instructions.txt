@@ -1,0 +1,8 @@
+Instructions to update website 
+
+1. make changes
+2. rmarkdown::render_site()
+3. commit and push changes to Github
+4. check your website for changes!
+
+Source: https://livefreeordichotomize.com/2017/08/08/how-to-make-an-rmarkdown-website/
