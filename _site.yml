@@ -1,17 +1,15 @@
 name: "personal-website"
 output_dir: "."
 navbar:
-  title: "Kaitlin Perkins"
+  title: "Kate Perkins"
   left:
     - text: "Home"
       href: index.html
     - text: "About Me"
       href: about.html
-    - text: "Science"
-      href: science.html  
     - text: "Civic Engagement"
       href: civ.html 
-    - text: "Resume"
+    - text: "Projects & Resume"
       href: cvres.html
     - text: "Contact Me"
       href: contact.html 

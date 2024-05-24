@@ -4,18 +4,9 @@
 ## About Me
 
 
-I am currently working as an environmental researcher in the Klamath Basin and completed an MS in Systems Ecology in spring 2021.
+I am currently growing my business as a consultant and environmental researcher. I live in the Pacific Northwest and grew up near the north fork of the Lewis River in SW Washington. My work is fueled by my passion for clean water and community engagement in water quality. I love growing my own food, trail running, painting, and spending time with my family, including my son. 
 
 
-I grew up near Mt. St. Helens in SW Washington. I completed my BS at Washington State University Vancouver (WSUV) in 2017. During my BS, I was privileged to conduct research abroad on a tall ship with Sea Education Association (SEA) and at WSUV with Drs. Gretchen Rollwagen-Bollens and Steve Bollens. 
-
-
-My work is fueled by my passion for clean water and community engagement in water quality. 
-
-
-I love keeping chickens, growing my own food, and other home projects, trail running, and painting. 
-
-
-```{r , echo = F,out.width = '50%'}
+```{r , echo = F,out.width = '20%'}
 knitr::include_graphics("./me_resize.png")
 ```

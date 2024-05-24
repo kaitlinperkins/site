@@ -6,3 +6,8 @@ Instructions to update website
 4. check your website for changes!
 
 Source: https://livefreeordichotomize.com/2017/08/08/how-to-make-an-rmarkdown-website/
+remotes::install_version("htmltools", version = "0.5.8")
+
+Notes: 
+
+- the science page is useful, but not professional. remove it for now, possibly come back to this later
