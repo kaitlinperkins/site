@@ -13,8 +13,8 @@
 
 <title>cvres.knit</title>
 
-<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
-<script src="site_libs/jquery-3.5.1/jquery-3.5.1.min.js"></script>
+<script src="site_libs/header-attrs-2.27/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
@@ -60,6 +60,7 @@ if (window.hljs) {
 
 
 
+
 <style type = "text/css">
 .main-container {
   max-width: 940px;
@@ -80,6 +81,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -137,11 +141,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -170,8 +178,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -179,16 +187,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -232,12 +233,12 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.html">Kaitlin Perkins</a>
+      <a class="navbar-brand" href="index.html">Kate Perkins</a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
@@ -248,13 +249,10 @@ $(document).ready(function () {
   <a href="about.html">About Me</a>
 </li>
 <li>
-  <a href="science.html">Science</a>
-</li>
-<li>
   <a href="civ.html">Civic Engagement</a>
 </li>
 <li>
-  <a href="cvres.html">Resume</a>
+  <a href="cvres.html">Projects &amp; Resume</a>
 </li>
 <li>
   <a href="contact.html">Contact Me</a>
@@ -279,6 +277,68 @@ $(document).ready(function () {
 <div id="resume" class="section level2">
 <h2>Resume</h2>
 <p><a href="/resume.pdf">Resume</a></p>
+</div>
+<div id="select-experience" class="section level2">
+<h2>Select Experience</h2>
+<div id="reports-contributions" class="section level3">
+<h3>Reports &amp; Contributions</h3>
+<p>Losi, C. (2024). McIsaac Ranch Land Exchange Draft Environmental
+Assessment. Contribution to environmental assessment for Flowra. (In
+Progress)</p>
+<p>Perkins, K. R., &amp; Kann, J. (2024). A Review of Best Practices for
+Controlling Agricultural Nonpoint Source Pollution in Oregon. Literature
+review prepared for Trout Unlimited and Wild Salmon Center.</p>
+<p>Perkins, K. R., &amp; Kann, J. (2024). Compilation and Assessment of
+Bear Creek Water Quality Data Collected After the Almeda Drive Fire.
+Technical Memorandum prepared for Rogue Valley Council of
+Governments</p>
+<p>Losi, C. (2023). Notice of Intent and Instructions for Category 5A,
+USFS Post-Fire Activities for North Quincy Wildfire Resiliency Project.
+Contribution to NOI for Central Valley Regional Water Quality Control
+Board.</p>
+<p>Losi, C. (2023). North Quincy Wildfire Resiliency Project
+Environmental Assessment. Contribution to environmental assessment for
+Alta Bally Consulting.</p>
+<p>Perkins, K. R., &amp; Asarian, J. E. (2023). State of the Basin:
+Scott River. Water quality report card prepared for: Klamath Tribal
+Water Quality Consortium.</p>
+<p>Asarian, J. E., Kann, J., &amp; Perkins, K. (2023). Temperature
+Dynamics and Trends in Upper Klamath Basin Tributaries: Assessment of
+The Klamath Tribes Long-Term Thermograph Monitoring Program.
+Contribution to report prepared for the Klamath Tribes.</p>
+<p>Perkins, K. R. (2023). Klamath Basin 6PPD-quinone Sampling Analysis
+Plan for the Klamath Tribal Water Quality Consortium.</p>
+<p>Kann, J., &amp; Perkins, K. (2021). Upper Klamath Lake 2021 Data
+Summary Report. Report prepared for Klamath Tribes.</p>
+<p>Kann, J., &amp; Perkins, K. (2021). Upper Klamath Lake 2020 Data
+Summary Report. Report prepared for Klamath Tribes.</p>
+<p>Perkins, K. R. (2021). Concentration and composition of nanoparticles
+and colloidal particles in a mine-waste contaminated river. Master’s
+thesis at the University of Montana.</p>
+<p>Publication</p>
+<p>Perkins, K. R., Rollwagen-Bollens, G., Bollens, S. M., &amp;
+Harrison, J. A. (2019). Variability in the vertical distribution of
+chlorophyll in a spill-managed temperate reservoir. Lake and Reservoir
+Management, 35, 119–126.</p>
+</div>
+</div>
+<div id="field-based-data-collection" class="section level2">
+<h2>Field-based data collection</h2>
+<p>Genzoli, L. Perkins, K. Snorkel surveys of algae and macrophyte
+communities on the Klamath River. 2021 – present (ongoing). Data
+collected for the Klamath Tribal Water Quality Consortium and Dr. Laurel
+Genzoli, University of Montana.</p>
+<p>Perkins, K.R., Losi, C. (2023). Significant existing or potential
+erosion sites (SEPES) and road haul data collection, Plumas National
+Forest. Data collected for North Quincy Wildfire Resiliency Project with
+Flowra. Perkins, K.R. et al. Upper Clark Fork River metals monitoring
+and colloidal metal particle research at University of Montana.
+(2017-2020). Data collected for the Ecosystems Lab, University of
+Montana and master’s thesis research.</p>
+<p>Perkins, K.R. et al. Lacamas Lake monitoring for plankton communities
+and water quality parameters. (2014-2017). Data collected for the
+Aquatic Ecology Lab, Washington State University Vancouver and
+undergraduate thesis research.</p>
 </div>
 
 
