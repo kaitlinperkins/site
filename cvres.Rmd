@@ -1,13 +1,13 @@
 <br>
 <br>
 
-## Resume
+### Resume
 
 [Resume](/resume.pdf)
 
-## Select Experience
+### Select Experience
 
-### Reports & Contributions
+#### Reports & Contributions
 
 Losi, C. (2024). McIsaac Ranch Land Exchange Draft Environmental Assessment. Contribution to environmental assessment for Flowra. (In Progress)
 
@@ -35,7 +35,7 @@ Publication
 
 Perkins, K. R., Rollwagen-Bollens, G., Bollens, S. M., & Harrison, J. A. (2019). Variability in the vertical distribution of chlorophyll in a spill-managed temperate reservoir. Lake and Reservoir Management, 35, 119–126.
 
-## Field-based data collection
+### Field-based data collection
 
 Genzoli, L. Perkins, K. Snorkel surveys of algae and macrophyte communities on the Klamath River. 2021 – present (ongoing). Data collected for the Klamath Tribal Water Quality Consortium and Dr. Laurel Genzoli, University of Montana. 
 
