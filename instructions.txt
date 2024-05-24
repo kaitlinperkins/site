@@ -5,7 +5,7 @@ Instructions to update website
 3. commit and push changes to Github
 4. check your website for changes!
 
-Source: https://livefreeordichotomize.com/2017/08/08/how-to-make-an-rmarkdown-website/
+Source: https://livefreeordichotomize.com/posts/2017-08-08-how-to-make-an-rmarkdown-website/index.html
 remotes::install_version("htmltools", version = "0.5.8")
 
 Notes: 
