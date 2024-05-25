@@ -9,7 +9,9 @@ I am currently growing my business as a consultant and environmental researcher.
 <br>
 <br>
 
-```{r , echo = F,out.width = '20%'}
+```{r , echo = F,out.width = '30%'}
 knitr::include_graphics("./me_resize.png")
+
+
 ```
   
